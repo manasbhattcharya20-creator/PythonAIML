@@ -4,12 +4,12 @@
 fruits = ["apple", "banana", "mango"]
 fruits.append("orange")
 print("List:", fruits)
-print("First fruit:", fruits[0])
+print("First fruit:", fruits[2])
 
 # A tuple is ordered but cannot be changed after it is created.
-point = (4, 7)
+point = (4, 7, 9,11,5)
 print("Tuple coordinate:", point)
-print("X coordinate:", point[0])
+print("X coordinate:", point[3])
 
 # A dictionary stores values under keys for easy lookup.
 student = {"name": "Ravi", "score": 86}
